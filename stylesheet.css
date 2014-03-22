@@ -1,0 +1,309 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/*
+Layout CSS File
+Created by Jeyrad
+Zymic.com
+*/
+
+
+/* Main Body Elements */
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+a:visited {
+	color: #006699;
+}
+a:hover {
+	color: #0099CC;
+}
+a:active {
+	color: #006699;
+}
+
+body,td,th 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666;
+}
+body 
+{
+	width:802px;
+	margin:0 auto;
+	margin-top:10px;
+	background: #82A7BD URL("images/bg.jpg") repeat-x top;
+	font-size: 12px;
+}
+
+#wrapper
+{
+	width:805px;
+	padding-left:1px;
+}
+.topbar
+{
+	width: 790px;
+	margin: 0;
+	text-align: center;
+	padding: 7px 5px 5px 5px;
+	margin-top: 4px;
+	background: url("images/topbar_top.jpg") no-repeat top #fff;
+}
+.topbar_bottom
+{
+	width: 800px;
+	height: 8px;
+	margin: 0 0 4px 0;
+	float: none;
+	background: url("images/topbar_bottom.jpg") no-repeat #FFF ;
+}
+
+#menu_container
+{
+	margin-top: 1px;
+	float:left;
+	width: 125px;
+}
+
+#content_container
+{
+	margin-top: 1px;
+	margin-left: 131px;
+}
+
+
+
+.content
+{
+	width: 660px;
+	text-align: center;
+	text-align: left;
+	padding: 5px;
+	padding-top: 7px;
+	margin: 0px;
+	background: #FFF url("images/content_top.jpg") no-repeat top;
+}
+.content_bottom
+{
+	width: 670px;
+	height: 8px;
+	margin: 0px;
+	margin-bottom: 3px;
+	background: #FFF url("images/content_bottom.jpg") no-repeat center;
+}
+.menu
+{
+	width: 117px;
+	margin: 0;
+	text-align: center;
+	padding: 4px;
+	padding-top: 7px;
+	background: #FFF url("images/nav_top.jpg") no-repeat top;
+}
+.menu ul
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.menu li
+{
+	display: block;
+	width: 100%;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+.menu_bottom
+{
+	width: 125px;
+	height: 8px;
+	margin: 0;
+	margin-bottom: 3px;
+	background: #FFF url("images/nav_bottom.jpg") no-repeat center;
+}
+
+
+/* Navagation/Content Elements */
+
+
+
+
+.item_top
+{
+	width: auto;
+	margin: 0px;
+	padding: 2px;
+	text-align: left;
+	border: 1px #CCC solid;
+	font-weight: bold;
+	margin-bottom: 3px;
+	margin-top: 4px;
+	background-color: #CCC;
+}
+.nav
+{
+	width: auto;
+	margin: 0;
+	text-align: left;
+	padding-left: 3px;
+}
+=======
+>>>>>>> d279f720fcf8945f9b8593d631e605b74ce29e27
+/*
+Layout CSS File
+Created by Jeyrad
+Zymic.com
+*/
+
+
+/* Main Body Elements */
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+a:visited {
+	color: #006699;
+}
+a:hover {
+	color: #0099CC;
+}
+a:active {
+	color: #006699;
+}
+
+body,td,th 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666;
+}
+body 
+{
+	width:802px;
+	margin:0 auto;
+	margin-top:10px;
+	background: #82A7BD URL("images/bg.jpg") repeat-x top;
+	font-size: 12px;
+}
+
+#wrapper
+{
+	width:805px;
+	padding-left:1px;
+}
+.topbar
+{
+	width: 790px;
+	margin: 0;
+	text-align: center;
+	padding: 7px 5px 5px 5px;
+	margin-top: 4px;
+	background: url("images/topbar_top.jpg") no-repeat top #fff;
+}
+.topbar_bottom
+{
+	width: 800px;
+	height: 8px;
+	margin: 0 0 4px 0;
+	float: none;
+	background: url("images/topbar_bottom.jpg") no-repeat #FFF ;
+}
+
+#menu_container
+{
+	margin-top: 1px;
+	float:left;
+	width: 125px;
+}
+
+#content_container
+{
+	margin-top: 1px;
+	margin-left: 131px;
+}
+
+
+
+.content
+{
+	width: 660px;
+	text-align: center;
+	text-align: left;
+	padding: 5px;
+	padding-top: 7px;
+	margin: 0px;
+	background: #FFF url("images/content_top.jpg") no-repeat top;
+}
+.content_bottom
+{
+	width: 670px;
+	height: 8px;
+	margin: 0px;
+	margin-bottom: 3px;
+	background: #FFF url("images/content_bottom.jpg") no-repeat center;
+}
+.menu
+{
+	width: 117px;
+	margin: 0;
+	text-align: center;
+	padding: 4px;
+	padding-top: 7px;
+	background: #FFF url("images/nav_top.jpg") no-repeat top;
+}
+.menu ul
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.menu li
+{
+	display: block;
+	width: 100%;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+.menu_bottom
+{
+	width: 125px;
+	height: 8px;
+	margin: 0;
+	margin-bottom: 3px;
+	background: #FFF url("images/nav_bottom.jpg") no-repeat center;
+}
+
+
+/* Navagation/Content Elements */
+
+
+
+
+.item_top
+{
+	width: auto;
+	margin: 0px;
+	padding: 2px;
+	text-align: left;
+	border: 1px #CCC solid;
+	font-weight: bold;
+	margin-bottom: 3px;
+	margin-top: 4px;
+	background-color: #CCC;
+}
+.nav
+{
+	width: auto;
+	margin: 0;
+	text-align: left;
+	padding-left: 3px;
+}
+<<<<<<< HEAD
+=======
+>>>>>>> 8d9cbc8aa8990cc12817098e2735635062b91fd6
+>>>>>>> d279f720fcf8945f9b8593d631e605b74ce29e27

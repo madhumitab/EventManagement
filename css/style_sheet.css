@@ -1,0 +1,323 @@
+
+#error {
+	color:red;
+	font-size:10px;
+	display:none;
+}
+.needsfilled {
+	background:white;
+	color:black;
+}
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #42413C;
+	background: #82A7BD URL("images/bg.jpg") repeat-x top;
+	margin: 0;
+	padding: 0;
+	color: #000;
+
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing block. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
+}
+
+.wrapper
+{
+	
+	padding-left:1px;
+	background-image:URL("images/Concert.jpg");
+}
+.topbar
+{
+	width: 790px;
+	margin: 0;
+	text-align: center;
+	padding: 7px 5px 5px 5px;
+	margin-top: 4px;
+	background: url("images/topbar_top.jpg") no-repeat top #fff;
+}
+.topbar_bottom
+{
+	width: 800px;
+	height: 8px;
+	margin: 0 0 4px 0;
+	float: none;
+	background: url("images/topbar_bottom.jpg") no-repeat #FFF ;
+}
+
+.advancesearch
+{
+
+background: #f7fbfc; /* Old browsers */
+background: -moz-linear-gradient(top,  #f7fbfc 0%, #d9edf2 40%, #add9e4 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7fbfc), color-stop(40%,#d9edf2), color-stop(100%,#add9e4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+
+
+
+
+}
+nav {
+	font-size: 20px;
+	background-color: #000;
+	color: #FFF;
+	cursor: pointer;
+       align:center;
+background: rgb(242,246,248); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 100%, rgba(224,239,249,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,246,248,1)), color-stop(50%,rgba(216,225,231,1)), color-stop(100%,rgba(181,198,208,1)), color-stop(100%,rgba(224,239,249,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+
+}
+
+nav a {
+text-decoration:none;
+color: #F34;
+text-align: center;
+top: 0px;
+bottom: 0px;
+left: 30px;
+}
+
+nav a:hover{
+text-size: 50px;
+color: #1e90ff;
+text-decoration: underline;
+}
+
+nav a:active  {color:gold;}
+.currentpage {
+color: #000;
+text-decoration: underline;
+
+}
+
+
+.menu
+{
+
+	margin: 0;
+	text-align: center;
+	padding: 4px;
+	padding-top: 7px;
+	background: #FFF url("images/header.jpg") no-repeat top;
+}
+#menu_container
+{
+	margin-top: 1px;
+	float:left;
+	width: 125px;
+}
+
+#content_container
+{
+	margin-top: 1px;
+	margin-left: 131px;
+}
+
+container{
+height:800;
+width:800;
+position:fixed;
+}
+
+
+container1{
+
+width:800;
+
+
+}
+
+.menu
+{
+
+	margin: 0;
+	text-align: center;
+	padding: 4px;
+	padding-top: 7px;
+	background: #FFF url("images/header.jpg") no-repeat top;
+}
+#menu_container1
+{
+	margin-top: 1px;
+	float:left;
+	width: 125px;
+}
+
+#content_container1
+{
+	margin-top: 1px;
+	margin-left: 131px;
+}
+
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+/* ~~ This fixed width container surrounds all other blocks ~~ */
+.container {
+	width: 960px;
+	background-color: #FFFFFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+/* ~~ The header is not given a width. It will extend the full width of your layout. ~~ */
+header {
+background: #b7deed; /* Old browsers */
+background: -moz-linear-gradient(top,  #b7deed 0%, #21b4e2 36%, #71ceef 50%, #b7deed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7deed), color-stop(36%,#21b4e2), color-stop(50%,#71ceef), color-stop(100%,#b7deed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #b7deed 0%,#21b4e2 36%,#71ceef 50%,#b7deed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #b7deed 0%,#21b4e2 36%,#71ceef 50%,#b7deed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #b7deed 0%,#21b4e2 36%,#71ceef 50%,#b7deed 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #b7deed 0%,#21b4e2 36%,#71ceef 50%,#b7deed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=0 ); /* IE6-9 */
+
+}
+.sidebar1 {
+	float: left;
+	width: 180px;
+	padding-bottom: 10px;
+  
+}
+
+
+
+.sidebar2 {
+	float: left;
+	width: 180px;
+	padding-bottom: 10px;
+       height:700px;
+  
+}
+
+.search
+{
+
+background: #f7fbfc; /* Old browsers */
+background: -moz-linear-gradient(top,  #f7fbfc 0%, #d9edf2 40%, #add9e4 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7fbfc), color-stop(40%,#d9edf2), color-stop(100%,#add9e4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+
+
+}
+.searchbox{
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
+}
+.content {
+	padding: 10px 0;
+	width: 600px;
+	height:450px;
+	float: left;
+}
+
+
+.content1{
+
+
+}
+aside {
+	float: left;
+	width: 180px;
+	background-color: #EADCAE;
+	padding: 10px 0;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol {
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+/* ~~ The footer ~~ */
+footer {
+	padding: 10px 0;
+	background-color: #CCC49F;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
+/* ~~ Miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty block element as the final element following the last floated block (within the .container) if the footer is removed or taken out of the .container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+header, section, aside, article, figure {
+	display: block;
+	color: #000;
+}
+
+ footer
+{
+height:15px;
+}
